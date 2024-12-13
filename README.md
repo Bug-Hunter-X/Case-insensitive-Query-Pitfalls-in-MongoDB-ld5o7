@@ -1,0 +1,3 @@
+# Case-Insensitive Queries in MongoDB: Potential Pitfalls
+
+This repository demonstrates a common issue with case-insensitive queries in MongoDB using regular expressions. The example shows how to perform such queries correctly and highlights potential problems that may arise if not handled carefully.  Specifically, it focuses on scenarios where the regular expression might inadvertently match more documents than intended due to the nature of case-insensitive searches.
